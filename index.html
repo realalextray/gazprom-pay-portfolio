@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="script.js"></script>
+        <title>Gazprom Pay</title>
+    </head>
+    <body>
+        <div class="page-transition">
+            <header class="header">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <a class="header__logo-link" href="#"
+                            aria-label="Ссылка на главную страницу">
+                            <svg class="header__logo-image" width="157"
+                                height="68" aria-hidden="true">
+                                <use
+                                    xlink:href="images/sprite.svg#logo-gazprom-pay"></use>
+                            </svg>
+                        </a>
+                        <div class="header__box">
+                            <a class="header__btn btn header__btn--active"
+                                href="#"
+                                onclick="loadContent('clients'); return false;">Клиентам</a>
+                            <a class="header__btn btn btn--fifth" href="#"
+                                onclick="loadContent('partners'); return false;">Партнерам</a>
+                        </div>
+                        <a class="header__language-link" href="#"
+                            aria-label="Ссылка на английскую версию сайта">
+                            En
+                            <svg class="header__language-icon" width="20"
+                                height="20" aria-hidden="true">
+                                <use
+                                    xlink:href="images/sprite.svg#icon-flag"></use>
+                            </svg>
+                        </a>
+                        <span class="header__partner">Партнерам</span>
+                    </div>
+                </div>
+            </header>
+            <main id="main-content">
+                <!-- Контент будет загружаться сюда -->
+            </main>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__wrapper">
+                        <div class="footer__left">
+                            <a class="footer__logo-link" href="#"
+                                aria-label="Ссылка на главную страницу">
+                                <svg class="footer__logo-image" width="157"
+                                    height="56" aria-hidden="true">
+                                    <use
+                                        xlink:href="images/sprite.svg#logo-gazprom-pay"></use>
+                                </svg>
+                            </a>
+                            <div class="footer__contacts">
+                                <div class="footer__phone">
+                                    <span class="footer__phone-text">Бесплатно
+                                        по России</span>
+                                    <a class="footer__phone-link"
+                                        href="tel:88001000701">8 800 100 07
+                                        01</a>
+                                </div>
+                                <div class="footer__phone">
+                                    <span class="footer__phone-text">Бесплатно с
+                                        мобильных</span>
+                                    <a class="footer__phone-link"
+                                        href="tel:400">400</a>
+                                </div>
+                            </div>
+                            <div class="footer__feedback">
+                                <span class="footer__feedback-text">Есть жалобы
+                                    и предложения?</span>
+                                <button
+                                    class="btn footer__feedback-btn btn--sixth"
+                                    type="button">Обратная связь</button>
+                            </div>
+                            <div class="footer__location">
+                                <span class="footer__location-text">Ваше
+                                    местоположение</span>
+                                <a class="footer__location-link" href="#">
+                                    <svg class="footer__location-icon"
+                                        width="16" height="16"
+                                        aria-hidden="true">
+                                        <use
+                                            xlink:href="images/sprite.svg#icon-location"></use>
+                                    </svg>
+                                    Москва
+                                </a>
+                            </div>
+                        </div>
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item"><a
+                                    class="footer__nav-link"
+                                    href="#">Клиентам</a></li>
+                            <li class="footer__nav-item"><a
+                                    class="footer__nav-link"
+                                    href="#">Партнерам</a></li>
+                            <li class="footer__nav-item"><a
+                                    class="footer__nav-link"
+                                    href="#">Регистрация в Gazprom Pay</a></li>
+                            <li class="footer__nav-item"><a
+                                    class="footer__nav-link"
+                                    href="#">Подключение Gazprom Pay</a></li>
+                        </ul>
+                        <div class="footer__right">
+                            <div class="footer__policy">
+                                <a class="footer__policy-link" href="#">Политика
+                                    защиты и обработки персональных данных</a>
+                                <a class="footer__policy-link" href="#">Политика
+                                    конфиденциальности</a>
+                            </div>
+                            <ul class="socials footer__socials">
+                                <li class="socials__item"><a
+                                        class="socials__link" href="#"
+                                        aria-label="Ссылка на Телеграм"><svg
+                                            class="socials__icon" width="15"
+                                            height="12" aria-hidden="true"><use
+                                                xlink:href="images/sprite.svg#icon-telegram"></use></svg></a></li>
+                                <li class="socials__item"><a
+                                        class="socials__link" href="#"
+                                        aria-label="ссылка на WhatsUp"><svg
+                                            class="socials__icon" width="14"
+                                            height="14" aria-hidden="true"><use
+                                                xlink:href="images/sprite.svg#icon-whatsapp"></use></svg></a></li>
+                            </ul>
+                            <div class="footer__copyright">
+                                <p class="footer__copyright-text">Сервис Gazprom
+                                    Pay — это платежное решение, позволяющее
+                                    быстро и безопасно оплачивать
+                                    онлайн-покупки. <a
+                                        class="footer__copyright-link"
+                                        href="#">Пользовательское
+                                        соглашение</a>. ©2024 Gazprom Pay</p>
+                                <p
+                                    class="footer__copyright-text footer__copyright-text--mobile">Сервис
+                                    Gazprom Pay — это платежное решение,
+                                    позволяющее быстро и безопасно оплачивать
+                                    онлайн-покупки. <a
+                                        class="footer__copyright-link"
+                                        href="#">Пользовательское
+                                        соглашение</a>.<br> ©2024 Gazprom
+                                    Pay</p>
+                                <span class="footer__copyright-date">Информация
+                                    от 5.01.2024</span>
+                            </div>
+                            <a class="footer__language-link" href="#"
+                                aria-label="Ссылка на английскую версию сайта">
+                                <svg class="footer__language-icon" width="20"
+                                    height="20" aria-hidden="true">
+                                    <use
+                                        xlink:href="images/sprite.svg#icon-flag"></use>
+                                </svg>
+                                English version
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

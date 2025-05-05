@@ -1,0 +1,114 @@
+.btn {
+  outline: none;
+  padding: 14px;
+  color: $color-white;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+  background-color: $color-black-russian;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+  &--second {
+    padding: 18px;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: $color-royal-blue-1;
+
+    &:hover {
+      background-color: $color-free-speech-blue;
+    }
+
+    &:focus-visible {
+      outline: none;
+      background-color: $color-free-speech-blue;
+    }
+
+    @include vp-1023 {
+      font-size: 13px;
+      line-height: 16px;
+      padding: 16px;
+    }
+
+    @include vp-767 {
+      margin: 0 auto 0;
+    }
+  }
+
+  &--third {
+    color: $color-black-russian;
+    padding: 14px;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: $color-white;
+
+    &:hover {
+      background-color: $color-solitude-4;
+    }
+
+    &:focus-visible {
+      outline: none;
+      background-color: $color-solitude-4;
+    }
+
+    @include vp-1023 {
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 16px;
+      padding: 12px;
+    }
+  }
+
+  &--fourth {
+    color: $color-black-russian;
+    background-color: $color-solitude-1;
+  }
+
+  &--fifth {
+    color: $color-black-russian;
+    background-color: transparent;
+
+    &:hover {
+      background-color: $color-solitude-4;
+    }
+
+    &:focus-visible {
+      outline: none;
+      background-color: $color-solitude-4;
+    }
+  }
+
+  &--sixth {
+    padding: 12px;
+    font-size: 13px;
+    line-height: 16px;
+
+    &:hover {
+      background-color: $color-blue-zodiac;
+    }
+
+    &:focus-visible {
+      outline: none;
+      background-color: $color-blue-zodiac;
+    }
+  }
+}
+
+// Стиль для активной кнопки
+.header__btn--active {
+  background-color: #1e222e; // Черный фон
+  color: $color-white;
+
+  &:hover {
+    background-color: #1e222e; // Остается черным при наведении
+  }
+
+  &:focus-visible {
+    outline: none;
+    background-color: #1e222e; // Остается черным при фокусе
+  }
+}
